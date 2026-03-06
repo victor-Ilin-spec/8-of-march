@@ -1,0 +1,68 @@
+@font-face{
+    font-family: 'my custom font';
+    src: url('assets/arial.ttf') format('truetype');
+    font-weight:normal;
+    font-style: normal;
+}
+body {
+    font-family: "my custom font";
+    background-color: pink;
+    text-align: center;
+}
+.pos{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.main {
+    font-family: "my custom font";
+    display:center;
+    text-align: center;
+    width: 40vh;
+    height: auto;
+    background-color: ghostwhite;
+    border-radius: 20px;
+}
+.vidpos {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.btn{
+    background:none;
+    border: groove;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+}
+#fullscreenGif {
+    display: none; 
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8); 
+    z-index: 1000; 
+    justify-content: center;
+    align-items: center;
+
+    p {
+        font-family: "my custom font"
+    }
+
+    h1 {
+        font-family: "my custom font";
+    }
+
+    h2 {
+        font-family: "my custom font";
+    }
+
+    h3 {
+        font-family: "my custom font";
+    }
+
+    h4 {
+        font-family: "my custom font";
+    }

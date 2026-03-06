@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <h1><p id="zag">это сайт поздравление с 8 марта</p></h1> <button class="btn" onclick="en_lang()">english language</button><br><button class="btn" onclick="ru_lang()">русский язык</button>
+</head>
+<body>
+    <header><p id="nav">навигация(ссылки ниже кликабельны)</p>
+    <br>
+    <a href="#main" style="text-decoration:none"><p style="color: black"  id="tagosn">основная часть поздравления</p></a><p></p><a href="#cons" style="text-decoration:none"><p style="color: rgb(0, 0, 0)"id="tagcons">конструктор где можно сделать своё поздравление</p></a></header>
+    <section id="main">
+        <div class="pos">
+            <div class="main">
+                <h1><p id="osncon">все девушки, сегодня или уже прошёл ваш прекрасный день!</p></h1>
+                <h3><p id="seccon" style="color:rgb(250, 0, 250)"> желаю вам счастья, здоровья, и как же не обойтись без пожелания любви в этот прекрасный день! Что бы вы были всегда такими очаровашками и милашками!</p></h3>
+                <img src="assets/confetti-4.gif" id="gif" style="display: none;">
+                <button class="show-gif-btn" onclick="showFullscreenGif()">
+                    конфетти!
+                </button>
+            </div>
+        </div>
+        <div id="fullscreenGif">
+            <img id="gifImage" src="assets/confetti-4.gif" alt="confetti-4.gif">
+        </div>
+    </section>
+    <selection id="cons">
+        <p id="consst">#начало конструктора</p><div class="vidpos">
+                                                    <video autoplay loop muted playsinline width="500px">
+                                                            <source src="assets/tutor.mp4" type="video/mp4">
+                                                    </video>
+                                                </div>
+        <h1><p id="yt">ваш текст тут</p></h1>
+        <h2><p id="yth">ваш текст тут</p></h2>
+        <h3><p id="ythh">ваш текст тут</p></h3>
+    </selection>
+</body>
+</html>
